@@ -12,7 +12,11 @@
         {
             "lyrics": "Here the lyrics of the song"
         }
-- [ ]     Response 404 (application/json)
+- [ ]   Response 400 (application/json)
+        {
+            "error": "Artist or title missing"
+        }
+- [ ]   Response 404 (application/json)
         {
             "error": "No lyrics found"
         }
