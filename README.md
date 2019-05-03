@@ -8,9 +8,16 @@
 - [ ] title: (string, length < 100) - Title of the song
 
 ## API definition
-- [ ]
-- [ ] 
+- [ ]   Response 200 (application/json)
+        {
+            "lyrics": "Here the lyrics of the song"
+        }
+- [ ]     Response 404 (application/json)
+        {
+            "error": "No lyrics found"
+        }
+        
 - [ ] GET https://api.lyrics.ovh/v1/artist/title - retrieve lyrics of a song by defining artist name and song title.
 
 ## UI definition
-- [ ] Wireframe link: 
+- [ ] Wireframe link: https://wireframe.cc/zJhcXL
